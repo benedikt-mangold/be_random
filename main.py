@@ -281,5 +281,22 @@ with st.expander("Wie funktioniert es?"):
     **Warum funktioniert das?**: Menschlich erzeugte "Zufallsfolgen" enthalten oft unbewusste Muster, Wiederholungen 
     und Vorlieben, die von maschinellen Lernverfahren erkannt und genutzt werden können.
 
-    **Versuchen Sie, wirklich zufällig zu sein** - das ist schwieriger als man denkt!
+    **Versuchen Sie, wirklich zufällig zu sein** – das ist schwieriger als man denkt!
     """)
+
+
+author_name = "Benedikt Mangold"
+
+# LinkedIn und GitHub Links
+linkedin_url = "https://www.linkedin.com/in/benedikt-mangold/"
+github_url = "https://github.com/benedikt-mangold"
+
+st.write(f"**Autor:** {author_name}")
+
+st.markdown(
+    f"""
+    [LinkedIn]({linkedin_url})
+    &nbsp;
+    [GitHub]({github_url})
+    """
+)
